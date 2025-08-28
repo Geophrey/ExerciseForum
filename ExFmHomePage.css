@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(125, 255, 125);
+    margin: 1%;
+    padding: 3%;
+    border: 5px solid darkgoldenrod;
+    /* display:flex;
+    flex-direction: column; */
+}
+
+nav{
+    background-color: rgb(0, 255, 0);
+    display:flex;
+    margin: 10%;
+    width:auto;    
+}
