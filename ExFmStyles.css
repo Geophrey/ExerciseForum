@@ -5,7 +5,8 @@ body{
     margin: 1%;
     padding: 1%;
     border: 5px solid rgb(231, 174, 29);
-    height:570px;
+    /* height:570px; */
+    height: fit-content;
     width:auto;
     justify-items: center;
 }
@@ -78,7 +79,7 @@ table{
     border: 1px solid rgb(138, 14, 14);
     padding: 1%;
     height: 75%;
-    width:auto;
+    width:100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -88,7 +89,7 @@ table{
 .quiz1, .quiz2, .quiz3 {
     border: 1px solid black;
     margin:3%;
-    width: 100px;
+    width: fit-content;
     height:auto;
     /* display: flex; */
     /* flex-direction: column; */
