@@ -53,9 +53,8 @@ table{
     height: 20px;
     width: 20px;
 } */
-.tableContent> p, label, select, option {
+.tableContent> p, select, option {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     text-align: center;
     border: 3px solid black;
@@ -87,10 +86,35 @@ table{
 }
 
 .quiz1, .quiz2, .quiz3 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin:3%;
     width: fit-content;
     height:auto;
     /* display: flex; */
     /* flex-direction: column; */
 }
+
+.Answer{
+    border: 1px solid purple;
+    margin:20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+    transition-property: width, height;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    /* transform: rotate(2deg); */
+}
+
+.Answer:hover{
+    height: 25px;
+    width: 489.312px;
+
+    /* transition: height =25px 1s;
+    transition: width =489.312px 1s; */
+    /* transform: rotate(2deg); */
+}
+
+/* .quiz1>form>.Ans3, .quiz2>form>.Ans2, .quiz3>form>.Ans1 :hover{
+    transition: ;
+} */
