@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Showcases & Highlights - Exercise Forum</title>
-    <link rel="stylesheet" href="./ExFmHomePage.css">
+    <link rel="stylesheet" href="./ExFmStyles.css">
+    <style>
+        .webpage{
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:xx-large;
+        }
+    </style>
+    <!-- + add inline styles to p tags for the tables -->
 </head>
 <body>
     
@@ -13,32 +21,189 @@
         <ul>
             <li class="webpage" id="page1">Landing</li>
             <li class="webpage" id="page2"><a href="./ExFmHomePage.html">Home</a></li>
-            <li class="webpage" id="page3"><a href="./ExFmShowcases.html">Showcase & Highlights</a></li>
+            <li class="webpage" id="page3"><a href="./ExFmShowcases.html">Showcase</a></li>
             <li class="webpage" id="page4">Discussions</li>
             <li class="webpage" id="page5"><a href="./ExFmQuizzes.html">Test Your Knowledge</a></li>
             <li class="webpage" id="page6">FAQ</li>
         </ul>
     </nav>
     
-    <table>
-        <tr><th>Top Data 1</th><th>Top Data 2</th><th>Top Data 3</th></tr>
-        <tr><td>Row 1 Data</td><td>Row 1 Data</td><td>Row 1 Data</td></tr>
-        <tr><td>Row 2 Data</td><td>Row 2 Data</td><td>Row 2 Data</td></tr>
-        <tr><td>Row 3 Data</td><td>Row 3 Data</td><td>Row 3 Data</td></tr>
+    <!-- Tables of content showing exercise highlights, tutorials, and questions -->
+    <section>
+        <table class="Highlights_Table">
+        <tr><th>Cool Highlights</th></tr>
+
+        <tr><td class="tableContent" id="tc1">
+            <img src="./images,vids,gifs/strong-1144_256.gif" alt="strong baby" width="300" height="300"><br>
+            <p>Look at my strong baby!</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc2">
+            <img src="./images,vids,gifs/marathon win.jpg" alt="marathon" width="300" height="300"><br>
+            <p>I finally finished first in a marathon!</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc3">
+            <img src="./images,vids,gifs/panda pr lift.jpg" alt="strong panda" width="300" height="300"><br>
+            <p>My pet panda got a new personal record for its squat; 315 lbs!!</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
     </table>
 
-    <label for="Reaction">Reaction</label>
-    <select name="Reactions" id="Emojis">
-        <option value="happy"></option>
-        <option value="crying"></option>
-        <option value="tuff"></option>
-        <option value="hands_up"></option>
-        <option value="thumbs_up"></option>
-        <option value="skeleton"></option>
-        <option value="fire"></option>
-        <option value="mad"></option>
-        <option value="100"></option>
-        <option value="heart"></option>
-    </select>
+    <table class="Tutorials_Table">
+        <tr><th>Tutorials</th></tr>
+
+        <tr><td class="tableContent" id="tc1">
+            <img src="./images,vids,gifs/jumpingThing.gif" alt="rotating jump squats" width="300" height="300"><br>
+            <p>Today I'm doing rotating squat jumps!</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc2">
+            <img src="./images,vids,gifs/nutrion label.png" alt="strong baby" width="300" height="300"><br>
+            <p>My cousin asked my how to read a nutrion label so I thought I'd share a quick and simple guide.</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc3">
+            <img src=".//images,vids,gifs/kettlebellSwing.gif" alt="kettlebell swings" width="300" height="300"><br>
+            <p>Make sure to bend your knees a little when you do kettle bell swings!</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+    </table>
+
+    <table class="Questions_Table">
+        <tr><th>Questions</th></tr>
+
+        <tr><td class="tableContent" id="tc1">
+            <img src="./images,vids,gifs/Weekly-Workout.png" alt="workout plan" width="300" height="300"><br>
+            <p>I want to get 20-pack abs, is this a good workout plan?</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc2">
+            <img src="./images,vids,gifs/boy-on-exercise-bar-animated.gif" alt="faux-pull-ups" width="300" height="300"><br>
+            <p>Is my toddler doing pull-ups right???</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+
+        <tr><td class="tableContent" id="tc3">
+            <img src="./images,vids,gifs/gym equipment.jpg" alt="gym items" width="300" height="300"><br>
+            <p>Which equipment is better to train legs with?</p>
+            <label for="Reaction">Reaction</label>
+            <select name="Reactions" id="Emojis">
+                <option value="happy">&#128518</option>
+                <option value="crying">&#128557</option>
+                <option value="tuff">&#128548</option>
+                <option value="hands_up">&#128080</option>
+                <option value="thumbs_up">&#128077</option>
+                <option value="skeleton">&#128128</option>
+                <option value="fire">&#128293</option>
+                <option value="mad">&#128545</option>
+                <option value="100">&#128175</option>
+                <option value="heart">&#127892</option>
+            </select>
+        </td></tr>
+    </table>
+    </section>
+
 </body>
 </html>

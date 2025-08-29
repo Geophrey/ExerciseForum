@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quizzes - Exercise Forum</title>
-    <link rel="stylesheet" href="./ExFmHomePage.css" />
+    <style>
+        .webpage{
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:xx-large;
+        }
+    </style>
+    <link rel="stylesheet" href="./ExFmStyles.css" />
   </head>
   <body>
     <!-- basic nav bar for all web pages -->
@@ -15,7 +22,7 @@
           <a href="./ExFmHomePage.html">Home</a>
         </li>
         <li class="webpage" id="page3">
-          <a href="./ExFmShowcases.html">Showcase & Highlights</a>
+          <a href="./ExFmShowcases.html">Showcase</a>
         </li>
         <li class="webpage" id="page4">Discussions</li>
         <li class="webpage" id="page5">
@@ -25,8 +32,9 @@
       </ul>
     </nav>
 
+    <!-- Fun quizzes to test people's knowledge -->
     <section class="quizzes">
-      <div>
+      <div class="quiz1">
         <form>
           <input type="radio" name="Quiz 1" id="Ans 1" value="Answer 1"/>
           <label for="1">Answer 1</label>
@@ -39,7 +47,7 @@
         </form>
       </div>
 
-      <div>
+      <div class="quiz2">
         <form>
           <input type="radio" name="Quiz 2" id="Ans 1" value="Answer 1"/>
           <label for="1">Answer 1</label>
@@ -52,7 +60,7 @@
         </form>
       </div>
 
-      <div>
+      <div class="quiz3">
         <form>
           <input type="radio" name="Quiz 3" id="Ans 1" value="Answer 1"/>
           <label for="1">Answer 1</label>
@@ -66,6 +74,6 @@
       </div>
     </section>
 
-    <footer></footer>
+    <!-- <footer></footer> -->
   </body>
 </html>

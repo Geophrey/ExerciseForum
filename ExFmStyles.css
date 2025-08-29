@@ -1,19 +1,95 @@
+/* styles for the body of all web pages */
 body{
-    background-color: rgb(125, 255, 125);
+    /* background-color: rgb(125, 255, 125); */
+    background: linear-gradient(#04c091, #ffff3f);
     margin: 1%;
-    padding: 3%;
-    border: 5px solid darkgoldenrod;
-    /* display:flex;
-    flex-direction: column; */
+    padding: 1%;
+    border: 5px solid rgb(231, 174, 29);
+    height:570px;
+    width:auto;
+    justify-items: center;
 }
 
 nav{
     background-color: rgb(77, 117, 3);
     display:flex;
-    margin: 10%;
-    width:auto;    
+    margin: 1%;
+    width:90%;
+    justify-content: center;
+}
+
+nav>ul{
+    margin: auto 30%;
+    width: 20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav>ul>li {
+    border: 1px solid black;
+    margin: auto 15%;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 table, tr, th, td{
     border: 1px solid black;
+    /* justify-content: center; */
+}
+
+table{
+    margin-bottom: 10px;
+    width:100px;
+    /* display:flex; */
+    justify-content: center;
+    background-color: rgb(172, 84, 2);
+
+}
+
+/* tr{
+    height: 20px;
+    width: 20px;
+} */
+.tableContent> p, label, select, option {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#Emojis, select{
+    width:50px;
+    height:50px;
+    border: 3px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* img{ this overrides my inline
+    height: auto;
+    width: auto;
+} */
+
+.quizzes {
+    border: 1px solid rgb(138, 14, 14);
+    padding: 3%;
+    height: 75%;
+    width:auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content:space-evenly;
+}
+
+.quiz1, .quiz2, .quiz3 {
+    border: 1px solid black;
+    margin:3%;
+    width: 100px;
+    height:auto;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
