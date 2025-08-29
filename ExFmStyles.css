@@ -1,7 +1,7 @@
 /* styles for the body of all web pages */
 body{
     /* background-color: rgb(125, 255, 125); */
-    background: linear-gradient(#04c091, #ffff3f);
+    background: linear-gradient(#04c04c, #ffff3f);
     margin: 1%;
     padding: 1%;
     border: 5px solid rgb(231, 174, 29);
@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-    background-color: rgb(77, 117, 3);
+    background-color: rgb(117, 106, 3);
     display:flex;
     margin: 1%;
     width:90%;
@@ -100,15 +100,21 @@ table{
     display: flex;
     justify-content: left;
     flex-direction: row-reverse;
-    transition-property: width, height;
+    /* transition-property: height, padding-left, padding-right;
     transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out; */
+
     /* transform: rotate(2deg); */
 }
 
 .Answer:hover{
-    height: 25px;
-    width: 489.312px;
+    /* height: 25px;
+    padding-left: 7px;
+    padding-right: 7px; */
+
+    transform: scale(1.1);
+
+    /* width: 100%; */
 
     /* transition: height =25px 1s;
     transition: width =489.312px 1s; */
